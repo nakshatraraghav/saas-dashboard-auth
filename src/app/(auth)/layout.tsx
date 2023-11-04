@@ -5,7 +5,7 @@ export default function AuthLayout({ children }: PropsWithChildren) {
   return (
     <div className="h-screen w-screen flex justify-between items-center">
       <div className="bg-white w-full md:w-[600px]">
-        <div className="w-full">
+        <div className="w-full flex justify-center items-center">
           <Image src="/logo.svg" height={64} width={64} alt="logo" />
         </div>
         {children}
