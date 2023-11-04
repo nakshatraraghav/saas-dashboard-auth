@@ -1,6 +1,8 @@
 import { PropsWithChildren } from "react";
 import Image from "next/image";
 
+import { OAuthButtons } from "@/components/form/oauth-buttons";
+
 export default function AuthLayout({ children }: PropsWithChildren) {
   return (
     <div className="h-screen w-screen flex justify-between items-center">

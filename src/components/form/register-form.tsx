@@ -53,7 +53,7 @@ export function RegisterForm() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="p-4 space-y-4">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="px-4 space-y-2">
         <FormField
           control={form.control}
           name="name"
